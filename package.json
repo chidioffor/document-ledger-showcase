@@ -1,8 +1,0 @@
-{
-  "name": "document-ledger-showcase",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "demo": "node --experimental-strip-types src/ledger.ts"
-  }
-}
