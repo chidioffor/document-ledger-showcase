@@ -4,6 +4,8 @@
 
 Document Ledger is shown here as a privacy-first platform-design case study. Its public story is about keeping a document's lifecycle comprehensible: validate its metadata, preserve an integrity record, and make access and change history auditable.
 
+> **Confidentiality notice:** This repository is an independently authored reference to the engineering responsibilities represented by Document Ledger Professional. It does not contain, reproduce, or substitute for the protected client implementation, which remains private under confidentiality obligations.
+
 ## What this showcase demonstrates
 
 - **Trustworthy workflows:** document events become an append-only audit trail.
@@ -31,6 +33,8 @@ npm run demo
 ## Architecture
 
 Read [the public-safe architecture notes](docs/architecture.md) for the lifecycle model and the security choices this kind of product calls for.
+
+For an additional public-safe reference to the wallet connection and permissions workflow, see [verification and wallet workflow](docs/verification-and-wallet-workflow.md).
 
 ## Boundaries
 
